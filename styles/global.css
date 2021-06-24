@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Pixelar";
+    src: url("/fonts/Pixelar.otf");
+    font-style: normal;
+  }
+
+body{
+    background: black;
+    overflow: hidden;
+    border-left: 50px solid #D4ABB9;
+    border-right: 50px solid #D4ABB9;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        border: none;
+    }
+  }
