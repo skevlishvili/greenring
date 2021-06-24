@@ -29,13 +29,13 @@ export default function Home() {
 
       {open && 
       <div className={styles.buttonsContainer}>
-      <div className={`${styles.mainButton} ${styles.yesButton}`} onClick={() => setClicked(true)}>YES</div>
-      <div className={`${styles.mainButton} ${styles.noButton}`} onClick={() => setClicked(true)}>NO</div>
+      <div className={`${styles.mainButton} ${styles.yesButton}`} onClick={() => setClicked(true)}>{"YES"}</div>
+      <div className={`${styles.mainButton} ${styles.noButton}`} onClick={() => setClicked(true)}>{"NO"}</div>
       </div> 
       }
 
       {clicked &&
-      <div className={styles.buttonNotWork}>The Button Doesn't Do Anything Tell Him In Discord LMAO</div>
+      <div className={styles.buttonNotWork}>{"The Button Doesn't Do Anything Tell Him In Discord LMAO"}</div>
       }
     </div>    
     </>
